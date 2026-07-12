@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — Sakura Card Captors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-card">
+            <span class="login-flor">🌸</span>
+            <h1>Bem-vinda de volta</h1>
+            <p class="login-subtitulo">Entre para acessar a wiki de Cardcaptor Sakura</p>
+
+            <form id="form-login">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required autocomplete="current-password">
+
+                <button type="submit">Entrar</button>
+            </form>
+
+            <p id="mensagem-erro" class="mensagem-erro"></p>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

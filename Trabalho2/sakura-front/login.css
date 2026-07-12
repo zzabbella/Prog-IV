@@ -1,0 +1,97 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 50px 40px;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #f4a0b5;
+}
+
+.login-flor {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-card h1 {
+  font-family: 'Cinzel', serif;
+  color: #c0306a;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.login-subtitulo {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+#form-login {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#form-login label {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  color: #b03070;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+#form-login input {
+  padding: 12px 14px;
+  border: 2px solid #f4c2d1;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#form-login input:focus {
+  border-color: #c0306a;
+  box-shadow: 0 0 8px rgba(192, 48, 106, 0.25);
+}
+
+#form-login button {
+  margin-top: 28px;
+  padding: 12px;
+  background: linear-gradient(135deg, #fce4ec, #f4a0b5);
+  color: #c06080;
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: 2px solid #f4a0b5;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#form-login button:hover {
+  background: #f4a0b5;
+  color: white;
+}
+
+#form-login button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.mensagem-erro {
+  margin-top: 18px;
+  color: #c0392b;
+  font-size: 14px;
+  min-height: 20px;
+}
